@@ -624,5 +624,22 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "mire_train": {
+    "file_name": "mire/train.json",
+    "columns": {
+        "images": "image",
+        "prompt": "instruction",
+        "query": "input",
+        "response": "output"
+    }
+},
+"mire_test": {
+  "file_name": "mire/test1.json",
+  "columns": {
+      "images": "image",
+      "prompt": "instruction",
+      "query": "input"
   }
+}
 }
